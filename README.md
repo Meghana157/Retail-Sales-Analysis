@@ -44,7 +44,7 @@ CREATE TABLE sales
 
 SELECT COUNT(*) FROM sales;
 
-## How many unique customers we have?
+#### How many unique customers we have?
 
 SELECT COUNT(DISTINCT customer_id) FROM sales;
 
